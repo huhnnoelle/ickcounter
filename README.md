@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Ick Counter — Smirk Snow</title>
+<title>Ick Counter</title>
 <style>
   :root{
     --bg:#fbf8ff;
