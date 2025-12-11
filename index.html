@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ick Counter</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: #f7f2fc;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        color: #5a2d82;
+        margin-bottom: 20px;
+    }
+
+    .button-container {
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 20px 40px;
+        margin: 15px;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        color: white;
+        transition: transform 0.1s ease-in-out;
+    }
+
+    button:active {
+        transform: scale(0.95);
+    }
+
+    #noelleBtn {
+        background-color: #ff69b4; /* hot pink */
+    }
+
+    #charlieBtn {
+        background-color: #4da6ff; /* blue */
+    }
+
+    .count-box {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        max-width: 300px;
+        font-size: 1.4rem;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .label {
+        font-weight: bold;
+        color: #5a2d82;
+        font-size: 1.2rem;
+    }
+
+</style>
+</head>
+
+<body>
+
+<h1>💖 Our Ick Counter 💖</h1>
+
+<div class="count-box">
+    <span class="label">Noelle's Icks:</span>
+    <span id="noelleCount">0</span>
+</div>
+
+<div class="count-box">
+    <span class="label">Charlie's Icks:</span>
+    <span id="charlieCount">0</span>
+</div>
+
+<div clas
